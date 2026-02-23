@@ -5,17 +5,29 @@
           2.) step name matches and project is *
           3.) project name matches and step name is *
           4.) project name and step name are *
-	-->
+    -->
     
     <config>
         <!-- which projects to use for (can be more then one, otherwise use *) -->
         <project>*</project>
         <step>*</step>
         
-        <!-- sample parameter -->
-        <value>test</value>
-        <!-- display button to finish the task directly from within the entered plugin -->
-        <allowTaskFinishButtons>true</allowTaskFinishButtons>
+        <!-- name of the process template to use to create the new process -->
+        <processTemplate>Sample_Workflow</processTemplate>
+        
+        
+        <!-- metadata and group fields to delete from the original process after the split -->
+        <metadata>PersonDepicted</metadata>
+        <metadata>singleDigCollection</metadata>
+        <metadata>UseAndReproductionLicense</metadata>
+        <group>AdministrativeData</group>
+
+
+        <!-- folder to move to the new process -->
+        <!-- configured name must be a standard folder like 'master' or 'media' or must exist in goobi_config.properties -->
+        <folder>media</folder>
+        <folder>docuPdf</folder>
+        <folder>ocr.alto</folder>
     </config>
 
 </config_plugin>
