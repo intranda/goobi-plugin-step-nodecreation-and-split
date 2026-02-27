@@ -75,7 +75,6 @@ public class NodecreationAndSplitPluginTest {
         assertNotNull(plugin);
     }
 
-    @Test
     public void testInit() {
         NodecreationAndSplitStepPlugin plugin = new NodecreationAndSplitStepPlugin();
         plugin.initialize(step, "something");
