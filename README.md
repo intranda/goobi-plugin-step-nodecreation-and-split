@@ -15,8 +15,8 @@ Detail                      | Description
 **Plugin identifier**       | intranda_step_nodecreation_and_split
 **Plugin type**             | step
 **Licence**                 | GPL 2.0 or newer
-**Documentation (German)**  | https://docs.goobi.io/workflow-plugins/v/ger/step/goobi-plugin-step-nodecreation-and-split
-**Documentation (English)** | https://docs.goobi.io/workflow-plugins/v/eng/step/goobi-plugin-step-nodecreation-and-split
+**Documentation (German)**  | https://docs.goobi.io/de/workflow/plugins/step/goobi-plugin-step-nodecreation-and-split
+**Documentation (English)** | https://docs.goobi.io/en/workflow/plugins/step/goobi-plugin-step-nodecreation-and-split
 
 ## Goobi details
 
