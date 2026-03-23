@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.goobi.workflow.plugin</groupId>
     <artifactId>plugin-step-nodecreation-and-split</artifactId>
-    <version>26.03-SNAPSHOT</version>
+    <version>${revision}</version>
   </parent>
   <artifactId>plugin-step-nodecreation-and-split-base</artifactId>
   <packaging>jar</packaging>
@@ -12,12 +12,12 @@
     <dependency>
       <groupId>io.goobi.workflow.plugin</groupId>
       <artifactId>plugin-administration-archive-management-lib</artifactId>
-      <version>26.03-SNAPSHOT</version>
+      <version>${revision}</version>
     </dependency>
     <dependency>
       <groupId>io.goobi.workflow.plugin</groupId>
       <artifactId>plugin-step-update-archive-node-lib</artifactId>
-      <version>26.03-SNAPSHOT</version>
+      <version>${revision}</version>
     </dependency>
   </dependencies>
 </project>
