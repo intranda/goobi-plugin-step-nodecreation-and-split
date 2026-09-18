@@ -253,7 +253,7 @@ public class NodecreationAndSplitStepPlugin implements IStepPluginVersion2 {
             return PluginReturnValue.ERROR;
         }
 
-        Fileformat nodeProcessMetadata = entry.createFileformat(prefs);
+        Fileformat nodeProcessMetadata = entry.createFileformat(processTemplate);
         //create new process based on the node metadata
         DigitalDocument digDoc = null;
         try {
